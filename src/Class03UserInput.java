@@ -11,9 +11,9 @@ public class Class03UserInput {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("What is your name");
-        String name = scanner.nextLine();
+        String name = scanner.nextLine();//scanner next line
         System.out.println("How old are you");
-        int age = scanner.nextInt();
+        int age = scanner.nextInt();//scanner integer data
         System.out.println("What is your favorite food?");
         String food = scanner.nextLine();
         scanner.nextLine();
