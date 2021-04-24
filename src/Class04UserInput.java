@@ -3,9 +3,9 @@ import java.util.Scanner;
 /*JavaFullCourse
 @author DAVI DE SOUZA SILVA
 @since 4/23/21
-Class03UserInput:
+Class04UserInput:
 */
-public class Class03UserInput {
+public class Class04UserInput {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);

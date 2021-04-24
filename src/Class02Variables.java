@@ -1,9 +1,9 @@
 /*JavaFullCourse
 @author DAVI DE SOUZA SILVA
 @since 4/23/21
-Class01Variables:
+Class02Variables:
 */
-public class Class01Variables {
+public class Class02Variables {
     public static void main(String[] args) {
         long x = 1234654654654L; //declaration = initialization
         int  y = 100;

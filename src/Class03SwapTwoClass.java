@@ -1,9 +1,9 @@
 /*JavaFullCourse
 @author DAVI DE SOUZA SILVA
 @since 4/23/21
-Class02SwapTwoClass:
+Class03SwapTwoClass:
 */
-public class Class02SwapTwoClass {
+public class Class03SwapTwoClass {
     public static void main(String[] args) {
 
         String x = "water";

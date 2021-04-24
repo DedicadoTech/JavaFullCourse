@@ -3,9 +3,9 @@ import java.util.Scanner;
 /*JavaFullCourse
 @author DAVI DE SOUZA SILVA
 @since 4/24/21
-Class06MathClass:
+Class07MathClass:
 */
-public class Class06MathClass {
+public class Class07MathClass {
     public static void main(String[] args) {
         double x = 3.14;
         double y = -10;

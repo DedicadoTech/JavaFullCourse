@@ -1,9 +1,9 @@
 /*JavaFullCourse
 @author DAVI DE SOUZA SILVA
 @since 4/23/21
-Class04Expressions:
+Class05Expressions:
 */
-public class Class04Expressions {
+public class Class05Expressions {
     public static void main(String[] args) {
         //expressions = operands & Operators
         //operands = values, variables, numbers, quantity

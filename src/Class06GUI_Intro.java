@@ -1,10 +1,10 @@
 /*JavaFullCourse
 @author DAVI DE SOUZA SILVA
 @since 4/24/21
-Class05GUI_Intro:
+Class06GUI_Intro:
 */
 import  javax.swing.JOptionPane;
-public class Class05GUI_Intro {
+public class Class06GUI_Intro {
     public static void main(String[] args) {
         //GUI = Graphical User Interface
         //Class //Variable //Class.Method(object, message)
