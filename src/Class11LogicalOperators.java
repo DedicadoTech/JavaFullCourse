@@ -13,7 +13,7 @@ public class Class11LogicalOperators {
         //      || = (Or) either conditions must be true
         //      !  = (Not) reveres boolean value of a condition
 
-        int temp = 25;
+       /* int temp = 25;
 
         if(temp>30){
             System.out.println("It is hot out");
@@ -21,7 +21,26 @@ public class Class11LogicalOperators {
             System.out.println("It is warm outside");
         }else{
                 System.out.println("It is cold outside");
+            }*/
+
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("You are playing a game! Press q or Q to quit");
+        String response = scanner.next();
+        //applying boolean table
+                    //negative     or  negative == true
+            if(response.equals("q") || response.equals("Q")) {
+                System.out.println("You quit the game");
+            } else {
+                System.out.println("You are still playing the game *pew pew*");
+
             }
-        }
+    }                   //positive    and         //positive == positive
+            /*if (!response.equals("q") && !response.equals("Q")) {
+                System.out.println("You are still playing the game *pew pew*");
+
+            } else { //do if  condition == false
+
+                System.out.println("You quit the game");
+            }*/
 }
 

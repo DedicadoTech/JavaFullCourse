@@ -1,6 +1,6 @@
 package Excercise;
 
-
+//import session
 import java.util.Scanner;
 
 /*JavaFullCourse
@@ -10,36 +10,32 @@ Calculator: simple calculator using CLI interface
 */
 public class Calculator {
     public static void main(String[] args) {
-        //variables
+        String operator = "";
+        int n2, n1;
 
-      long result = 0;
+        Scanner scanner = new Scanner(System.in);
 
-      int n1 = 0, n2= 0;
-      while ("5".equals(operator)) {
-          Scanner operator = new Scanner(System.in);
-          System.out.println("1 (addition)  2 (subtraction)  3 (multiplication) 4 (division) 5 exit ");
-          operator.nextInt();
-          Scanner number = new Scanner(System.in);
+        System.out.println("type the operator(+,-,*,/)");
+        operator = scanner.nextLine();
+        if (operator.equals("+") || operator.equals("-") || operator.equals("*") || operator.equals("/")) {
+            System.out.println("Enter a value ");
+            n1 = Integer.parseInt(scanner.nextLine());
+            System.out.println("Enter a value value: ");
+            n2 = Integer.parseInt(scanner.nextLine());
+            if (operator.equals("+"))
+                System.out.println("Resulted: "+ (n1+n2));
+            else if(operator.equals("-")){
+                System.out.println("Resulted: "+ (n1-n2));
+            }else if(operator.equals("*")){
+                System.out.println("Resulted: "+ (n1*n2));
+            }else if(operator.equals("/")){
+                System.out.println("Resulted: "+ (n1/n2)); //build casting
+            }
+        } else {
 
-          if ("1".equals(operator)) {
 
-              n1 = number.nextInt();
-
-              n2 = number.nextInt();
-              result = n1 + n2;
-              System.out.println(n1 + " + " + n2 + " = ");
-              System.out.println(result);
-
-          } else if ("2".equals(operator)) {
-              n1 = number.nextInt();
-              n2 = number.nextInt();
-              result = n1 - n2;
-              System.out.println(n1 + " - " + n2 + " = ");
-              System.out.println(result);
-
-          } else {
-              System.out.println("not operator please type an operator");
-          }
+            System.out.println("Invalid operator");
+            System.exit(1);
         }
     }
-}
+}//end of code
