@@ -4,5 +4,5 @@
 
 ###Exercise link:
 
-#####[Main](Class01Main.java)
-#####[Variables](Class02Variables.java)
+[Main](src/Class01Main.java)<br>
+[Variables](src/Class02Variables.java)
